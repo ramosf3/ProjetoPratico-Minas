@@ -26,24 +26,17 @@ body{
     
     }
     
-    
-    
     img {
-    
         margin-top: 50px;
         padding: 15px;
     }
     
     h3 {
-    
         color: rgb(146, 18, 88);
         text-align: center; 
-    
-    
     }
     
-    .desenvolvido{
-    
+    .desenvolvido{    
         background: rgb(126, 50, 156);
         height: 60px;
         max-width: 100%;
@@ -52,8 +45,7 @@ body{
         font-size: 20px;
         font-weight: normal;
         color:white;
-        line-height: 2.5;
-       
+        line-height: 2.5;       
     }
     
     .links {
@@ -63,32 +55,31 @@ body{
         max-width: 100%;
         text-align: left; 
         color: white; 
-        font-size: 40px;
-       
-        
+        font-size: 40px;     
     }
     
-    .links h4 {
-    
+    .links h4 {    
         line-height: 2.5;
-    }
+    }    
     
-    
-    .logos{
-    
+    .logos{    
      background-color: rgb(126, 50, 156);
      text-align: center; 
+    }
+
+    .caixa_central{
+        display: flex;
     }
     
     
     .imagem{
-    float: left
-    
+    float: left;
+    display: flex;
+    width:auto;    
     }
     
     .curso{
-        
-         color: rgb(102, 9, 126)
+         color: rgb(102, 9, 126);
     }
     
     .informações{
@@ -97,17 +88,32 @@ body{
         float: none;
     }
     #contato {
-        background: #53d4d8;
-        height: 198px;
+        background: rgb(102, 9, 126);
+        width: 100%;
+        height: 100%;
         padding-left: 50px;
         padding-top: 40px;
         padding-bottom: 150px;
-        display: flex;
+        display: block;
         flex-direction: column;
         justify-content: space-between;
+        height:auto;
+        overflow:hidden;
     }
 
     #contato a {
-        color: #000000;
+        color: #fdfdfd;
         text-decoration: none;
+    }
+
+    #container{
+        width: 100%;
+    }
+
+    .linkedin{
+        display: inline-block;
+    }
+
+    .Minas{
+        display: inline-block;
     }
